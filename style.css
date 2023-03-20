@@ -1,0 +1,189 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F2E5DC;
+    text-align: center;
+    padding: 7%;
+    margin: -1%;
+    font-size: 55px;
+    flex-wrap: wrap;
+    color: #55140C;
+    
+}
+
+body{
+    background-color: #55140C;
+}
+
+.load1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    padding: 15%;
+}
+
+.h1a{
+    display: flex;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+
+
+.hr1{
+    color: black;
+    width: max;
+    border:10px solid #FFBC99    ;
+    margin: -1%;
+    
+}
+
+.button1{
+    background-color: khaki;
+    display: inline-block;
+    justify-content: center;
+    padding: 7% 10%;
+    border: #F2E5DC;
+    margin-top: 10%;
+    font-size: 15px;
+    flex-wrap: wrap;
+    border-radius: 0%;
+    width: 170px;
+    text-decoration: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #55140C;
+}
+.button1:hover{
+    background-color: rgb(223, 212, 114);
+    color: #911a0a;
+    cursor: pointer;
+    
+}
+
+
+.img1{
+    border-radius: 5%;
+}
+
+
+.disc{
+    display: flex;
+    margin: 7% 7%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10%;
+    flex-wrap: wrap;
+    opacity: 60%;
+    
+}
+.disc1{
+    color: black;
+    font-size: 25px;
+}
+
+
+.reg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -2%;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    
+}
+
+.button2{
+    align-items: center;
+    background-color: white;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 7% 17%;
+    border: #F2E5DC;
+    opacity: 60%;
+    font-size: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 350px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.button2:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.button2:visited{
+    background-color: black;
+}
+
+hr{
+    width: 100%;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 95%;
+    margin: 7% 15%;
+    font-size: larger;
+
+    background-color: #f2f2f2;
+    padding: 75px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+
+fieldset {
+    display: block;
+    justify-content: space-between;
+    
+    background-color: #fff;
+    border: 1px solid #ccc;
+    line-height: 35px;
+
+}
+
+.main_heading{
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100%;
+    font-size: small;
+}
+
+input[type="submit"]:hover{
+    background-color: #4caf84;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    
+    color: 55140C;
+    font-weight: bold;
+    font-size: small;
+}
+
