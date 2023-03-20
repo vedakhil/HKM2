@@ -8,6 +8,7 @@ header{
     font-size: 55px;
     flex-wrap: wrap;
     color: #55140C;
+    width: max;
     
 }
 
@@ -209,9 +210,11 @@ textarea {
     }
 
     .img1{
-        width: 400px;
+        width: 270px;
     }
-
+.h1a{
+    align-items: center;
+    }
     
 
 }
