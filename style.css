@@ -193,8 +193,8 @@ textarea {
         align-items: center;
         font-size: 40px; 
         padding: 12%;
-    margin: -1%;
-    width: auto;
+    
+    width: max;
     }
 
     .load1{
