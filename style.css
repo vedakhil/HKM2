@@ -188,7 +188,7 @@ textarea {
     font-size: small;
 }
 
-@media screen and (max-width: 1500px) and (orientation: portrait) {
+@media screen and (max-width: 750px) and (orientation: portrait) {
     header{
         align-items: center;
         font-size: 40px; 
