@@ -4,7 +4,7 @@ header{
     background-color: #F2E5DC;
     text-align: center;
     padding: 7%;
-    margin: -1%;
+    margin: -2%;
     font-size: 55px;
     flex-wrap: wrap;
     color: #55140C;
@@ -14,6 +14,7 @@ header{
 
 body{
     background-color: #55140C;
+    
 }
 
 .load1{
@@ -36,7 +37,8 @@ body{
     color: black;
     width: max;
     border:10px solid #FFBC99    ;
-    margin: -1%;
+    margin: 0% -1%;
+    align-items: center;
     
 }
 
@@ -188,34 +190,94 @@ textarea {
     font-size: small;
 }
 
+
+
+
+@media screen and (max-width: 400px) and (orientation: portrait) {
+    header{
+        align-items: center;
+        font-size: 40px; 
+        padding: 12%;
+    margin: -1%;
+    width: 82%;
+    }
+
+    .load1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        padding: 15%;
+        text-align: center;
+        flex-wrap: wrap;
+        align-content: center;
+        line-height: 23px;
+        
+        
+    }
+
+    .h1a{
+        text-align: center;
+        font-size: large;
+        align-items: center;
+        align-content: center;
+    }
+
+    .img1{
+        max-width: 300px;
+    }
+
+    .disc{
+        padding: 4%;
+        margin: 18% 1%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .form1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        opacity: 95%;
+        margin: 20% 1%;
+        
+        font-size: medium;
+    
+        
+        padding: 15px 20px;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+    }
+
+    
+
+}
+
 @media screen and (max-width: 750px) and (orientation: portrait) {
     header{
         align-items: center;
         font-size: 40px; 
         padding: 12%;
-    
+    margin: -1%;
     width: max;
     }
 
     .load1{
         display: flex;
         flex-direction: column-reverse;
-        
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         color: aliceblue;
         padding: 15%;
         text-align: center;
-        align-items: center;
+        
     }
 
     .img1{
-        width: 270px;
+        max-width: 370px;
     }
-.h1a{
-    align-items: center;
-    }
+
     
 
 }
-
